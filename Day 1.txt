@@ -1,0 +1,87 @@
+1.What is os? 
+- interface b/w user and hardware.
+
+2.What is Cloud Computing? 
+- It  is on-demand delivery of IT resources over the network. We can access technical resources such as storage, database, compute, networking, security with
+  pay as you go.
+
+3.Cloud providers in market.
+- AWS
+- microsoft Azure
+- GCP(Google Cloud Platform)
+
+4.What is SDLC.
+- Software Development Life Cycle. It is a structured step by step process that development teams used to create high quality, effective and secure software.
+
+5.What is server components.
+- OS(linux/win/mac)
+- RAM(6/8/12/16 etc GB)
+- ROM(HDD/SSD)
+- Networking
+
+6.mobaXterm
+- ls(enter) -> touch shama -> ls -> cat > shama(write anything, to close file - cntrl c) -> cat shama -> rm shama -> clear -> mkdir lopes -> ls -> cd lopes -> touch f1
+  -> cat > f1 -> cat f1 -> cd ..(to come out of the directory) -> ls -> mkdir mangalore -> ls -> rmdir lopes(directory not empty) -> rm -r lopes -> rmdir mangalore -> 
+  ls -> clear -> ls -l -> ls -> pwd -> mkdir shiva -> cd shiva -> pwd -> mkdir lopes -> cd lopes -> pwd -> cd ../..
+- ls is a command to list files and directories
+- touch a command to create empty files.
+- rm is command to remove a file.
+- rm -r is command to delete directory with files.
+- rmdir is a command to delete empty directory.
+- mkdir is a command to create a directory.
+- cd: change directory.
+- ls -l: list the files and directories with permissions.
+- pwd: print working directory/present
+- history: to see previously executed commands.
+
+7.DevOps
+- DevOps is a set of practices, principles and cultural philosopies that aim to bridge the gap b/w software development and operations.
+- The goal of DevOps is to shorten the software development life cycle, improve collaboration b/w development and operations team and deliver high quality software
+  faster and more efficiently.
+- DevOps is not a Technology, It's a Methodology.
+- DevOps is imprtant because its a software development and operations approach that enables faster development of new products and easier maintenance of existing
+  deployments.
+- Key elements: automation, continuous integration, automation, continuous delivery, collaboration and communication, monitoring.
+- Watefall Model: it has distinct goals for each phase of development.
+  *Requirements
+  *Analysis
+  *Design
+  *Coding
+  *Testing
+  *Operation
+- Limitation: Once  application is in the testing stage, it is very difficult to go back and change something that was not weel-thought out in the concept stage.
+- Benefits: Speed, Rapid Delivery, Reliability, Improved Collaboration, Scale, Security.
+- DevOps Work:               Plan                                 Release
+                             Code                                 Deploy
+                             Build                                Operate
+                             Test                                 Monitor
+8.Agile Methodology
+- DevOps is a culture, fosytering collaboration among all participants involved in the development and maintenance of software. Agile can be described as a development
+  methodology designed to maintain productivity and drive releases with the common reality of changing needs.
+
+9.EC2: Elastic Compute Cloud
+
+10.What is a Server?
+ - Server is a powerful computer, a system that provides services or data to other computers not as clients.
+ - servers are designed to manage, store and process data and they play a critical role in handeling requests delivering responses within a network.
+ - Tyes of Servers:
+   *Web Server: delivers webpages to users browsers, ex: nginX
+   *File Server: stores and manages files that clients can access and share over a network.
+   *Database Server: manage Database and provide access to clients for reading, writing and updating data. ex: mySQL, MongoDB.
+   *Mail Server: handles sending, receiving and storage of emails. ex: microsoft exchange.
+   
+   Clients --------> |Internet| ---------> Server
+
+- server Components: OS, RAM, CPU, storage, NIC, ROM.
+- EC2 Configuration Steps: 
+  1.name of the server
+  2.application and os images(Amazon Machine Image)
+  3.Instance Type: choose number of CPU's and RAM.
+  4.Keypair: used to connect securely to instance.
+  5.Networking:
+          -firewalls
+          -VPC: Virtual Private Cloud
+          -Subnets
+          
+
+11.MyToken: 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

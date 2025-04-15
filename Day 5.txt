@@ -1,0 +1,29 @@
+File Types
+---------------------------------------------------------
+directory : d (starts with)
+regular file : - ( " )
+
+- (regular file)
+rw- (read,  write, no permission) -> 4+2+0=6
+r-- (read, no per, no per) -> 4+0+0=4
+r-- (read, no per, no per) -> 4+0+0=4
+
+
+
+
+Linux File permission
+--------------------------------------------------------
+user -> owner of the file
+group -> collection of the user with same file permission
+others -> not a owner and not in group
+
+read : 4(r)
+write : 2(w)
+execute : 1(x)
+total : 7
+
+--------------------------------------------------------
+What is Jenkins?
+it is an open source used for implementing continuous integration CI, continuous delivery CD pipelines, automating , 
+testing and deploying software, leading to faster delivery software lifecycle. it is developed using Java.
+

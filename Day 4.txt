@@ -1,0 +1,14 @@
+Command -> docker-compose build(to build a container) -> then if you go to that app you can see the output.
+---------------------------------------------------------------------------------------------------------------------------
+
+1.What is Kubernetes
+- Orchestration Platform
+- To manage containers
+- Developed by Google using Go language
+
+Orchestration Platform: system or tool that automates the deployment, scaling, management and operation of containerized 
+applications- is a orchestration platform for containers.
+
+==================================
+Kubernetes Cluster Setup
+==================================

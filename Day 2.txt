@@ -1,0 +1,49 @@
+Three tier architecture:
+-----------------------------------------
+1. web server
+2. app server
+3. db server
+
+What is horizontal scaling and vertical scaling?
+Vertical -increase is no of server resources, RAM.
+Horizontal - increase in no of servers
+
+1. load balancer------>to distribute the incoming application traffic to registered targets called servers.
+2. autoscaling----->automatically add or remove servers based on traffic and defined policy
+min size : 1
+desired size : 2
+max size : 10
+3. Cloud watch alarms----------->will trigger the alarms when there is problems in server , whenever crossed the COU UTILIZATION THRESHOLD
+4. SNS - simple notification service-----> sends notifications to the registered email
+
+
+Load balancing
+------------------------------
+1. Automatically distributes traffic across multiple targets
+2. Provides high availability
+3. Incorporates security features
+4. Performs health checks
+
+Types
+1. Application load balancer - HTTP. HTTPS
+2. Network load balancer - IP
+3. Gateway load balancer
+
+Auto Scaling
+----------------
+1. Helps control EC@ instances available to handle the load for application
+2. Launches or terminates AWS resources based on specified conditions
+3. Registers new instances with load balancers, when specified
+
+Components
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+KUBERNETES
+
+1) What is Kubernetes?
+- Orchestration platform
+- To manage containers
+- Developed by Google using Go language
+
